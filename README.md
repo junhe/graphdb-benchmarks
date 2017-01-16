@@ -3,7 +3,9 @@ My Notes
 To run
 
 ```
-mvn dependency:copy-dependencies && mvn test -Pbench
+sudo apt-get install maven
+mvn dependency:copy-dependencies 
+mvn test -Pbench
 ```
 
 To modify experiment settings, check src/test/resources/META-INF/input.properties
