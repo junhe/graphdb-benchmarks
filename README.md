@@ -1,3 +1,13 @@
+My Notes
+==================
+To run
+
+```
+mvn dependency:copy-dependencies && mvn test -Pbench
+```
+
+To modify experiment settings, check src/test/resources/META-INF/input.properties
+
 graphdb-benchmarks
 ==================
 The project graphdb-benchmarks is a benchmark between popular graph dataases. Currently the framework supports [Titan](http://thinkaurelius.github.io/titan/), [OrientDB](http://www.orientechnologies.com/orientdb/), [Neo4j](http://neo4j.com/) and [Sparksee](http://www.sparsity-technologies.com/). The purpose of this benchmark is to examine the performance of each graph database in terms of execution time. The benchmark is composed of four workloads, Clustering, Massive Insertion, Single Insertion and Query Workload. Every workload has been designed to simulate common operations in graph database systems.
